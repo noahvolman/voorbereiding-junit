@@ -33,7 +33,7 @@ beginnen we met het schrijven van een unittests.
 ```$xslt
     void executeWithValidIntTest(){
         // Setup
-            var sut = new FizzbuzzExecutor();
+            var sut = new FizzBuzzExecutor();
             
         // Test
             var testValue = sut.execute(37);
@@ -67,10 +67,10 @@ op te lossen voegen we een *setup*
 de twee tests. Die is nu overbodig geworden.
 ```$xslt
 
-    private FizzbuzzExecutor sut;
+    private FizzBuzzExecutor sut;
     
     void setup(){
-        sut = new FizzbuzzExecutor();
+        sut = new FizzBuzzExecutor();
     }
 ```
 
