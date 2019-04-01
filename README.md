@@ -22,7 +22,7 @@ methode die een reeks van getallen genereert en daarmee de `FizzbuzzExecutor` la
 In deze oefening gaan we de methode `execute` van de `FizzBuzzExecutor` implementeren. Maar natuurlijk 
 beginnen we met het schrijven van een unittests.
 
-* Voeg een testklasse toe voor de klasse `FizzBuzzExecutor` aan je project. Volg hierbij de volgende aanwijzingen:
+* Voeg een testklasse toe voor de klasse `FizzBuzzExecutor`. Volg hierbij de volgende aanwijzingen:
     * Voor het antwoord op de vraag: 'Wat is eigenlijk een testklasse?', bekijk de 
     [Userguide](https://junit.org/junit5/docs/current/user-guide/) van jUnit 5
     * Voor het antwoord op de vraag: 'Waar moet ik mijn tests plaatsen?', lees het volgende onderdeel van 
@@ -50,9 +50,9 @@ Om van de methode een unittest te maken zul je hem moeten annoteren met de annot
 daarna uitvoert zul je zien dat deze faalt. Om hem te laten slagen zul je de methode `execute(int)` correct moeten 
 implementeren. Bouw op dit moment nog geen FizzBuzz gedrag in, zorg er enkel voor dat je test slaagt. Enkele aanwijzingen:
     
-    * Voor het antwoord op de vraag: 'Hoe run ik mijn Unittest met Maven?', lees deze 
+* Voor het antwoord op de vraag: 'Hoe run ik mijn Unittest met Maven?', lees deze 
         [tutorial](https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/).
-    * Het uitvoeren van een Unittest kan binnen IntelliJ door met de rechtermuisknop op de unittest te klikken en
+* Het uitvoeren van een Unittest kan binnen IntelliJ door met de rechtermuisknop op de unittest te klikken en
     dan de optie `Run executeWithValidIntTest()`. IntelliJ zal in dat geval enkele de gekozen unittest uitvoeren.
     
 ## Oefening 4: Schrijf een tweede unittest voor Fizz
@@ -63,7 +63,7 @@ door 3 en zorg ervoor dat deze unittest slaagt.
 In beide unittests die je nu hebt gemaakt instantieer je een `FizzbuzzExecutor`. Je hebt hier dus herhalende code. Om dit
 op te lossen voegen we een *setup*
 
-* Voeg de volgende methode toe aan je testklasse en annoteer hem met `@BeforeEach`. Verwijder hierbij ook de *setup* code uit
+* Voeg de volgende methode en instantie-variabele toe aan je testklasse en annoteer hem met `@BeforeEach`. Verwijder hierbij ook de *setup* code uit
 de twee tests. Die is nu overbodig geworden.
 ```$xslt
 
@@ -83,7 +83,8 @@ door 5 en zorg ervoor dat deze unittest slaagt.
 door 15 en zorg ervoor dat deze unittest slaagt.
 
 ## Oefening 8: Voer alle unittests uit met Maven
-Mogelijk heb je dit al eerder gedaan, maar zorg ervoor dat je alle unittests kunt uitvoeren met Maven
+Mogelijk heb je dit al eerder gedaan, maar zorg ervoor dat je alle unittests kunt uitvoeren met Maven. Natuurlijk moeten ze
+ook allemaal slagen.
 
 ## Oefening 9: Run with Coverage
 Gebruik IntelliJ om je Unittests uit te voeren en gelijktijdig inzichtelijk te maken welk percentage van je code
