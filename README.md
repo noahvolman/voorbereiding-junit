@@ -88,11 +88,7 @@ door 5 en zorg ervoor dat deze unittest slaagt.
 * Voeg een vierde unittest toe die test of de methode `execute(int)` de string `FizzBuzz` teruggeeft wanneer `int` deelbaar is 
 door 15 en zorg ervoor dat deze unittest slaagt.
 
-## Oefening 9: Voer alle unittests uit met Maven
-Mogelijk heb je dit al eerder gedaan, maar zorg ervoor dat je alle unittests kunt uitvoeren met Maven. Natuurlijk moeten ze
-ook allemaal slagen.
-
-## Oefening 10: Run with Coverage
+## Oefening 9: Run with Coverage
 Gebruik IntelliJ om je Unittests uit te voeren en gelijktijdig inzichtelijk te maken welk percentage van je code
 wordt ge-unittest. Ook dit kan via het contextmenu. Echter moet je daarvoor niet met de rechter-muisklik op de unittest klikken, 
 maar op de testklasse.
