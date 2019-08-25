@@ -11,7 +11,7 @@ FizzBuzz. Pas daarna implementeren we de requirement zelf.
 
 ## Oefening 1: Toevoegen van een jUnit aan een Maven project
 Om gebruik te kunnen maken van jUnit moet een dependency aan de POM worden toegevoegd. Kies hierbij voor de laatste 
-versie van [jUnit 5](https://junit.org/junit5/) en gebruik de versies en plugins zoals aangegeven in [de slides]( https://goo.gl/rTGmk5). 
+versie van [jUnit 5](https://junit.org/junit5/). 
 
 ## Oefening 2: Het maken van een testklasse
 Het project bevat twee klassen. Een `FizzBuzzRunner` en een `FizzbuzzExecutor`. De `FizzBuzzExecutor`
