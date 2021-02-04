@@ -3,7 +3,7 @@
 Deze oefening is deel van de DEA Course aan de Hogeschool Arnhem/Nijmegen. Doel is het bekend raken met jUnit als testsframework voor het schrijven van unittests.
 
 # Oefeningen
-In deze oefening werken we nogmaals de FizzBuzz kata uit. Echter zorgen we er deze keer voor dat we ook de bijbehorende unittests schrijven.
+In deze oefening werken we nogmaals de FizzBuzz kata uit. Echter, zorgen we er deze keer voor dat we ook de bijbehorende unittests schrijven.
 
 Daarbij beginnen we steeds met het schrijven van een unittest voor een specifieke requirement van FizzBuzz. Pas daarna implementeren we de requirement zelf. 
 
@@ -28,13 +28,13 @@ In deze oefening implementeren we de methode `execute` van de `FizzBuzzExecutor`
 * Voeg aan je testklasse onderstaande unittest toe en zorg ervoor dat je hem kunt uitvoeren en dat hij slaagt.
 ```java
     void executeWithValidIntTest(){
-        // Setup.
+        // Arrange
         var sut = new FizzBuzzExecutor();
             
-        // Test.
+        // Act
         var testValue = sut.execute(37);
             
-        // Verify.
+        // Assert
         Assertions.assertEquals("37", testValue);
     }
 ```
@@ -47,7 +47,7 @@ Om van de methode een unittest te maken moet je deze annoteren met de annotatie 
 * Het uitvoeren van een Unittest kan binnen IntelliJ door met de rechtermuisknop op de unittest te klikken en dan op de optie `Run executeWithValidIntTest()`. IntelliJ voert dan de gekozen unittest uit.
 
 ## Oefening 4: Voer de unittest uit met behulp van Maven  
-Run je test met behulp van Maven via de commandline. Er is een kans dat Maven de test niet kan vinden en in zijn output aangeeft dat er geen tests uitgevoerd zijn. Dit komt dan omdat Maven gebruikt maakt van een te oude plugin om Unittests uit te voeren. Het gaat hierbij om de *maven-surefire-plugin*.
+Run je test met Maven via de commandline. Er is een kans dat Maven de test niet kan vinden en in zijn output aangeeft dat er geen tests uitgevoerd zijn. Dit komt omdat Maven gebruikt maakt van een te oude plugin om Unittests uit te voeren. Het gaat hierbij om de *maven-surefire-plugin*.
 * Voor uitleg hoe je dit probleem moet oplossen, lees deze [tutorial](https://junit.org/junit5/docs/current/user-guide/#running-tests-build-maven).
   
 ## Oefening 5: Schrijf een tweede unittest voor Fizz
@@ -76,8 +76,8 @@ In beide unittests die je nu hebt gemaakt instantieer je een `FizzbuzzExecutor`.
 ## Oefening 9: Run with Coverage
 Gebruik IntelliJ om je unittests uit te voeren en gelijktijdig inzichtelijk te maken welk percentage van je code wordt ge-unittest. Dit heet de 'code coverage'. Ook dit kan via het contextmenu, echter moet je daarvoor NIET met de rechter-muisknop op de unittest klikken, maar op de testklasse.
 
-## Oefening 10: Code coverageIs varieren en is code coverage een silver bullet?
+## Oefening 10: Code coverageIs variëren en is code coverage een silver bullet?
 Optioneel:
 Noteer hoe hoog je totale coverage nu is (uitkomst van oefening 9). Commentaar daarna tijdelijk de `FizzBuzz` test van oefening 9 uit en bepaal opnieuw de test coverage. Is deze veranderd? Is dit hetzelfde bij klasgenoten met een andere (maar ook werkende!) implementatie? Zo ja, kun je bedenken hoe dit zou kunnen?
 
-Als de code coverage niet verandert verander dan ook de `Buzz` test van oefening 7. Verandert de code coverage nu wel? Klopt dit met je verwachting? Bij sommige bedrijven is er de eis om 100% code coverage te hebben. Is dit waardevol? En is 100% coverage een garantie dat er geen fouten in je code zitten? Waarom wel, of niet?
+Als de code coverage niet verandert, verander dan ook de `Buzz` test van oefening 7. Verandert de code coverage nu wel? Klopt dit met je verwachting? Bij sommige bedrijven is er de eis om 100% code coverage te hebben. Is dit waardevol? En is 100% coverage een garantie dat er geen fouten in je code zitten? Waarom wel, of niet?
