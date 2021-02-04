@@ -15,45 +15,45 @@ class FizzBuzzExecutorTest {
 
     @Test
     void executeWithValidIntTest() {
-        // Setup
+        // Arrange
 
-        // Test
+        // Act
         var testValue = sut.execute(37);
 
-        // Verify
+        // Assert
         Assertions.assertEquals("37", testValue);
     }
 
     @Test
     void executeWithFizzValueTest() {
-        // Setup
+        // Arrange
 
-        // Test
+        // Act
         var testValue = sut.execute(3);
 
-        // Verify
+        // Assert
         Assertions.assertEquals("Fizz", testValue);
     }
 
     @Test
     void executeWithBuzzValueTest() {
-        // Setup
+        // Arrange
 
-        // Test
+        // Act
         var testValue = sut.execute(5);
 
-        // Verify
+        // Assert
         Assertions.assertEquals("Buzz", testValue);
     }
 
     @Test
     void executeWithFizzBuzzValueTest() {
-        // Setup
+        // Arrange
 
-        // Test
+        // Act
         var testValue = sut.execute(15);
 
-        // Verify
+        // Assert
         Assertions.assertEquals("FizzBuzz", testValue);
     }
 }
