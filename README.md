@@ -24,7 +24,7 @@ In deze oefening implementeren we de methode `execute` van de `FizzBuzzExecutor`
 
 * Voeg een testklasse toe voor de klasse `FizzBuzzExecutor`. Volg hierbij de volgende aanwijzingen:
     * Voor het antwoord op de vraag: 'Wat is eigenlijk een testklasse?', bekijk de [Userguide](https://junit.org/junit5/docs/current/user-guide/) van jUnit 5
-    * Voor het antwoord op de vraag: 'Waar moet ik mijn tests plaatsen?', lees het volgende onderdeel van de [jUnit 4 FAQ](https://junit.org/junit4/faq.html#organize_1).
+    * Voor het antwoord op de vraag: 'Waar moet ik mijn tests plaatsen?', lees het volgende onderdeel van de [Introduction to the Standard Directory Layout](https://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout).
     
 ## Oefening 3: Schrijf een eerste unittest
 * Voeg aan je testklasse onderstaande unittest toe en zorg ervoor dat je hem kunt uitvoeren en dat hij slaagt.
