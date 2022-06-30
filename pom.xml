@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>nl.han.ica.oose.dea</groupId>
+  <groupId>nl.han.aim.oose.dea</groupId>
   <artifactId>voorbereiding-junit</artifactId>
   <version>1.0</version>
 
