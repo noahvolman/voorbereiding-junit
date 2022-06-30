@@ -43,7 +43,7 @@ De afkorting **sut** staat hierbij voor **S**ystem **U**nder **T**est. Een handi
 
 Om van de methode een unittest te maken moet je deze annoteren met de annotatie `@Test`. Wanneer je de test daarna uitvoert zie je dat deze faalt. Om hem te laten slagen zul je de methode `execute(int)` correct moeten implementeren. Bouw op dit moment nog geen FizzBuzz gedrag in, zorg er enkel voor dat je test slaagt. Enkele aanwijzingen:
 
-* Voor het antwoord op de vraag: 'Hoe run ik mijn Unittest met Maven?', lees deze [tutorial](https://www.mkyong.com/maven/how-to-run-unit-test-with-maven/).
+* Voor het antwoord op de vraag: 'Wat is eigenlijk een testklasse?', bekijk de [Userguide](https://junit.org/junit5/docs/current/user-guide/) van jUnit 5
 * Het uitvoeren van een Unittest kan binnen IntelliJ door met de rechtermuisknop op de unittest te klikken en dan op de optie `Run executeWithValidIntTest()`. IntelliJ voert dan de gekozen unittest uit.
 
 ## Oefening 4: Voer de unittest uit met behulp van Maven
